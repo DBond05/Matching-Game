@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Matching Game </title>
+<!-- <link href="https://fonts.google.com/css2?family-sniglet&display=swap" rel="stylesheet"> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="logic.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="customAlert" class="modal hidden">
+		<div class="flex">
+			<button class="btn-close" onclick="closeModal()">&times;</button>
+			<h1>Way To Go! Andrius!</h1>
+			
+			</div>
+		</div>
+	</div>
+	<div id="game-wrapper">
+		<h1>Family Match Game</h1>
+		<div id="match-grid"></div>
+		<button class="btn-restart" onclick="start()">RESTART</button>
+	</div>
+
+	<script>
+		var images = ["./images/Adonis.jpg", "./images/AJ.jpg", "./images/Daddy.jpg", "./images/Grama.jpg", "./images/Mommy.jpg", "./images/Alivia.jpg", "./images/Avery.jpg", "./images/Mommy.jpg"];
+		
+		start();
+
+
+	</script>
+</body>
+</html>
